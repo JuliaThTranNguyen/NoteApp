@@ -1,0 +1,82 @@
+/* index.scss */
+:root {
+  font-family: Inter, system-ui, Avenir, Helvetica, Arial, sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+/* HEADER PART */
+header {
+  .logo {
+    font-size: 10px;
+  }
+
+  .href {
+    color: black;
+  }
+
+  .href:hover {
+    color:blue;
+  }
+}
+
+/* BODY PART */
+body {
+  margin: 45px 0 0; /* Adjusted margin */
+  height: calc(70vh - 5px); /* Adjusted height */
+
+  /* CREATE NOTE */
+  .box {
+    & > * {
+      margin-right: 20px !important;
+      margin: 20px 0;
+    }
+
+    & > div > input[type="text"] {
+      border-bottom: 1px solid #111111;
+      opacity: 0.4;
+      width: 300px;
+      padding-right: 25px;
+    }
+
+    & > div > input[type="color"] {
+      position: relative;
+      bottom: -10px;
+      width: 40px;
+      height: 30px;
+    }
+
+    & > span {
+      font-size: 10px;
+      position: relative;
+      right: 40px;
+    }
+  }
+}
+
+/* FOOTER PART */
+footer {
+  position: fixed;
+  bottom: 0;
+  width: 100%; 
+  //border-top: 1px solid grey;
+ margin-bottom: 25px;
+ // padding-top: 25px;
+  background-color: white;
+  color: black;
+
+  .typography {
+    font-size: 16px;
+    display: flex;
+    align-items: left;
+    justify-content: left;
+  }  
+
+    .href {
+      color: black;
+    }
+
+    .href:hover {
+      color: blue
+    }
+}
