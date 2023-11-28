@@ -20,4 +20,4 @@
 [config file](./config.md)
 
 ## UI design:
-![image](https://github.com/JuliaThTranNguyen/NoteApp/assets/49017322/3a651900-c87b-4c45-a7f6-cd877f80113e)
+![image](https://github.com/JuliaThTranNguyen/NoteApp/assets/49017322/c05fc3b2-de80-49d8-8a4c-d78929a42694)
