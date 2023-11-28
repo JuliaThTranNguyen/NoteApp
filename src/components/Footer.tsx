@@ -13,11 +13,10 @@ export default function Footer() {
           color="text.primary"
           className="typography"
         >
-          Copyright ©{" 2023"} | Made by
+          Copyright ©{" 2023"}
           <Link className="href" color="inherit" href="https://github.com/JuliaThTranNguyen" sx={{ mx: 1, fontSize: 16 }}>
-           <GitHubIcon fontSize="small"/> TH.JuliaThTranNguyen
+           <GitHubIcon fontSize="small"/> 
           </Link>
-          
         </Typography>
       </Container>
     </Box>
