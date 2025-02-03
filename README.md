@@ -1,6 +1,7 @@
 # This code serves as a practice exercise and a review of TypeScript, Material UI, and SCSS usage.
 
 ------------------------------------------------------------
+
 ## Project name: Note App
 
 ## Technologies:
